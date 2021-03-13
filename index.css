@@ -1,0 +1,65 @@
+.head-title{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 55px;
+    margin-top: 75px;
+}
+.container{
+    width: 60;
+    max-width: 500px;
+    margin: auto;
+    
+}
+.container header{
+    height: 150px;
+    background-color: darkblue;
+    position: relative;
+}
+
+
+.selection-title{
+text-transform: capitalize;
+color: white;
+text-align: center;
+padding: 60px;
+
+
+}
+.icon{
+position: absolute;
+top: 0%;
+right: 10px;
+color: white;
+font-size: 50px;
+}
+
+form{
+    background-color: wheat;
+    max-width: 400px;
+    margin-left: 100px auto;
+    padding: 60px;
+}
+.form-field label{
+    text-transform: capitalize;
+   
+}
+.form-input{
+    
+    width: 100%;
+    display: block;
+    border: 0;
+    border-bottom: 2px solid gray;
+    padding: 10px;
+}
+
+.submit-button{
+    border-radius:50px;
+    background-color: darkblue;
+    color: white;
+    font-size: 25px;
+}
+.submit{
+    text-align: center;
+    padding: 20px;
+}
