@@ -1,0 +1,22 @@
+#id1{
+    color: black;
+    background-color: chartreuse;
+    text-transform: lowercase;
+    font-size: 150pxs;
+}
+
+#id2{
+    color: black;
+    background-color: red ;
+    font-size: 500pxs;
+}
+ 
+.model{
+    padding-left: 10px;
+    border: 10px solid goldenrod;
+    margin: 50px 10px;
+}
+.body{
+    padding-left: 100px;
+    padding-right: 100px;
+}
