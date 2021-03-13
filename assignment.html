@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Information</title>
+        <style>
+            * {
+                box-sizing: border-box;
+               }
+            .column{
+                float: left;
+                padding: 10px;
+                height: 1000px;
+                
+            }
+            .left {
+                 width: 25%;
+            }
+
+            .right {
+                 width: 75%;
+            }
+
+            .row::after{
+                content: "";
+                display: table;
+                clear: both;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row">
+            <div class="column" style="background-color: white;">
+            <h2>Technical<br>
+            Documentation</h2>
+            <p style="color: lightskyblue;">Introduction <br>
+               What you should <br>
+               alredy known <br>
+               about the topic <br>
+               Topic 1 <br>
+               Topic 2</p>
+        </div>
+        <div class="column" style="background-color: white;">
+            <div style="color: white;background-color: black;">Introduction</div>
+            <p>Some content about the main topic,for example Java documentation introduction about the languages</p>
+            <div style="color:white;background-color:black;">What you should alreadyknow</div>
+            <P>Background information before getting into the topic.</P>
+            <ul>
+                <li>some list content.</li>
+                <li>Prerequest.</li>
+                <li>working and assumptions</li>
+            </ul>
+            <p>Any other content to be xovered before learning this topic.</p>
+            <div style="color:white;background-color:black;">About topic</div>
+            <p>More line about the topic, for example, how the basic functionally works, features etc... <br>
+                Technical documentation should be thorough and to the point.<br>
+                Write about features, comparisions with other language etc
+            </p>
+            <div style="color: white;background-color: black;">Topic 1</div>
+            <p>Getting started with the actual documentation
+                 this would xome in a different color and font indicatind line of code</p>
+            <div style="color: white;background-color: black;">Topic 2</div>
+            <p>another topic abount the main topic, for example, if the topic id java, this could be variable or data types in java </p>
+
+        </div>
+        </div>
+    </body>
+</html>
